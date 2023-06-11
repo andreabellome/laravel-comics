@@ -46,19 +46,17 @@ $navBarLinks= [
 ?>
 
 <header>
-    <!-- sono l'header
-
-    <a href="[[ route('home') ]]">Home</a>
-    <a href="[[ route('about') ]]">About</a> -->
 
     <div class="bg-white flex align-it-center">
 
         <!-- start: container nav bar -->
         <div class="header-div debug">
-            <img src="../assets/img/dc-logo.png" alt="dc-logo" class="img-style padd-5 debug">
+
+            <!-- DC logo image -->
+            <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="dc-logo" class="img-style padd-5 debug">
 
             <!-- start: iterate the nav bar -->
-            <div class="flex align-it-center flex-wrap padd-5 debug">
+            <div class="flex align-it-center flex-wrap debug">
                 @foreach( $navBarLinks as $navbarli )
                     <div class="div-nav-bar col-dark">
                         <a href="#" class="debug">
