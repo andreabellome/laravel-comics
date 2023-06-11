@@ -16,7 +16,7 @@ Laravel Comics | Home
     <div class="row debug align-it-center just-cont-center">
 
         @foreach( $dcComics as $elem )
-        <div class="card mb-3 mr-5 debug" style="width: 18rem;">
+        <div class="card mb-3 mr-5 padd-5" style="width: 18rem; height: 35rem;">
             <img src="{{$elem['thumb']}}" class="card-img-top" alt="{{$elem['series']}}">
             <div class="card-body">
 
