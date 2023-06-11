@@ -15,10 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $dcComics = config( 'db.dcComics' );
-
-    /* dd($dcComics); */
-
-
     return view('pages.welcome', compact( 'dcComics' ));
 })->name('home');
 
