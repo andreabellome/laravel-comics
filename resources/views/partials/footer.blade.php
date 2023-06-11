@@ -215,4 +215,40 @@ $footBarLinks= [
     </div>
     <!-- end: footer main -->
 
+    <!-- start: footer footer -->
+    <div class="bg-grey-dc flex align-it-center padd-top-10 padd-bottom-10">
+        <div class="footer-div">
+
+            <div class="sign-up ">
+                Sign-Up Now!
+            </div>
+
+            <div class="flex align-it-center padd-5">
+
+                <div class="follow-us">
+                    Follow Us
+                </div>
+
+                <div class="footer-logos">
+                    <img src="{{ Vite::asset('resources/images/footer-facebook.png') }}" alt="footer-facebook"
+                        class="mr-10">
+
+                    <img src="{{ Vite::asset('resources/images/footer-twitter.png') }}" alt="footer-twitter"
+                        class="mr-10">
+
+                    <img src="{{ Vite::asset('resources/images/footer-youtube.png') }}" alt="footer-youtube"
+                        class="mr-10">
+
+                    <img src="{{ Vite::asset('resources/images/footer-pinterest.png') }}" alt="footer-pinterest"
+                        class="mr-10">
+
+                    <img src="{{ Vite::asset('resources/images/footer-periscope.png') }}" alt="footer-periscope">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- start: footer footer -->
+
 </footer>

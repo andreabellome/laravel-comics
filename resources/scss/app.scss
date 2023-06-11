@@ -1028,4 +1028,43 @@ a {
     }
 }
 
+.bg-grey-dc {
+    background-color: #303030;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px;
+    border: 3px solid #0282F9;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.follow-us {
+
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #0282F9;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.footer-logos {
+    img {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
 /* END: SPECIFIC CSS */
