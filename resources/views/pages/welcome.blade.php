@@ -7,7 +7,13 @@ Laravel Comics | Home
 @section('content')
 
 <!-- start: jumbotron -->
+<div class="jumbotron debug mb-3">
 
+    <div class="current-series">
+        Current Series
+    </div>
+
+</div>
 <!-- end: jumbotron -->
 
 <!-- start: comics -->

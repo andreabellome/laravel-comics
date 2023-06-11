@@ -47,7 +47,7 @@ $navBarLinks= [
 
 <header>
 
-    <div class="bg-white flex align-it-center mb-3">
+    <div class="bg-white flex align-it-center">
 
         <!-- start: container nav bar -->
         <div class="header-div debug">

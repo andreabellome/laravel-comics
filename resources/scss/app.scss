@@ -915,4 +915,31 @@ a {
 
 }
 
+.jumbotron {
+    background-image: url(../assets/img/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 400px;
+
+    position: relative;
+
+}
+
+.current-series {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+
+    display: inline-block;
+    position: relative;
+    bottom: -95%;
+    left: 10%;
+
+    background-color: #0282F9;
+
+    padding: 10px;
+}
+
 /* END: SPECIFIC CSS */
