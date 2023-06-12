@@ -1,19 +1,64 @@
-# passi per installare il progetto
+Progetto Laravel
+Questo progetto Laravel è stato creato con l'obiettivo di fornire una base solida per lo sviluppo di applicazioni web utilizzando il framework Laravel versione 9.2.
 
-1- Creare la cartella tramite comando da terminale: composer create-project --prefer-dist laravel/laravel:^9.2 [Nome_repo]
-2- aprire la cartella creata e basta su vs code
-3- cliccare nella sidebar di sinistra su source controll
-4- cliccare sul bottone blu per "pubblica su github"
-5- scegliere pubblica repo con visibilità "pubblica"
-6- ATTIVARE IL SERVER: terminata la pubblicazione su github, apire il terminale di vs code integrato o il terminale di sistema nella cartella progetto e lanciare il comando: php artisan serve
-7- in un altro terminale aperto sulla cartella del progetto, lanciare : composer require pacificdev/laravel_9_preset
-8 - poi lanciare il comando da terminale: php artisan preset:ui bootstrap
-9 - lanciare il comando da terminale: npm install
-10 - lanciare il comando da terminale per attivare i secondo server da mantenere attivo durante il lavoro: npm run dev
-11 - riavviare invece il server attivato con il comando: php artisan serve
-12 - inserire nel <head></head> del layout questo codice per poter intepretare bootstrap con vite: @vite('resources/js/app.js')
-    Il layout diventerà:
-        <head>
-            ....
-            @vite('resources/js/app.js')
-        </head>
+Prerequisiti
+Prima di procedere all'installazione del progetto, assicurati di avere i seguenti prerequisiti installati sul tuo sistema:
+
+PHP 7.4 o versione successiva
+Composer
+Node.js e npm
+Installazione
+Segui i passaggi di seguito per installare correttamente il progetto sul tuo ambiente di sviluppo:
+
+Clona il repository o crea una nuova cartella tramite il comando da terminale:
+
+lua
+Copy code
+composer create-project --prefer-dist laravel/laravel:^9.2 [Nome_repo]
+Apri la cartella appena creata utilizzando il tuo editor di codice preferito.
+
+Nella barra laterale del tuo editor di codice, cerca l'opzione "Source Control" o "Controllo di origine" e aprila.
+
+Fai clic sul bottone "Clone" o "Clona" per pubblicare il repository su GitHub.
+
+Seleziona l'opzione "Public" o "Pubblica" per rendere il repository visibile a tutti.
+
+ATTIVAZIONE DEL SERVER: Una volta completata la pubblicazione su GitHub, apri il terminale nella cartella del progetto e avvia il server utilizzando il seguente comando:
+
+Copy code
+php artisan serve
+In un nuovo terminale, esegui il comando seguente per installare il pacchetto pacificdev/laravel_9_preset:
+
+bash
+Copy code
+composer require pacificdev/laravel_9_preset
+Esegui il comando seguente per configurare l'interfaccia utente di Laravel utilizzando Bootstrap:
+
+Copy code
+php artisan preset:ui bootstrap
+Esegui il comando seguente per installare le dipendenze di npm:
+
+Copy code
+npm install
+Avvia il server di sviluppo con il comando:
+
+arduino
+Copy code
+npm run dev
+Riavvia il server Laravel precedentemente avviato con il comando:
+
+Copy code
+php artisan serve
+Nel tuo file di layout principale (solitamente denominato app.blade.php), aggiungi il seguente codice all'interno del tag <head></head> per abilitare l'integrazione di Bootstrap con Vite:
+
+html
+Copy code
+@vite('resources/js/app.js')
+Il tuo layout dovrebbe essere simile a questo:
+
+html
+Copy code
+<head>
+    ...
+    @vite('resources/js/app.js')
+</head>
