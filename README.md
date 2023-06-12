@@ -16,6 +16,7 @@ Segui i passaggi di seguito per installare correttamente il progetto sul tuo amb
 
 1. Clona il repository o crea una nuova cartella tramite il comando da terminale:
 
+```
 composer create-project --prefer-dist laravel/laravel:^9.2 [Nome_repo]
-
+```
 
