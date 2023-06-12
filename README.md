@@ -43,4 +43,40 @@ composer require pacificdev/laravel_9_preset
 ```
 
 
+8. Esegui il comando seguente per configurare l'interfaccia utente di Laravel utilizzando Bootstrap:
+
+```
+php artisan preset:ui bootstrap
+```
+
+9. Esegui il comando seguente per installare le dipendenze di npm:
+
+```
+npm install
+```
+
+
+10. Avvia il server di sviluppo con il comando:
+ ```
+ npm run dev
+ ```
+
+11. Riavvia il server Laravel precedentemente avviato con il comando:
+ ```
+ php artisan serve
+ ```
+
+12. Nel tuo file di layout principale (solitamente denominato `app.blade.php`), aggiungi il seguente codice all'interno del tag `<head></head>` per abilitare l'integrazione di Bootstrap con Vite:
+ ```
+ html
+ @vite('resources/js/app.js')
+ ```
+
+Il tuo layout dovrebbe essere simile a questo:
+```html
+<head>
+    ...
+    @vite('resources/js/app.js')
+</head>
+
 
