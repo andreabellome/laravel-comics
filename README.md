@@ -67,8 +67,7 @@ npm install
  ```
 
 12. Nel tuo file di layout principale (solitamente denominato `app.blade.php`), aggiungi il seguente codice all'interno del tag `<head></head>` per abilitare l'integrazione di Bootstrap con Vite:
- ```
- html
+ ```html
  @vite('resources/js/app.js')
  ```
 
