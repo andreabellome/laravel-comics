@@ -30,3 +30,17 @@ composer create-project --prefer-dist laravel/laravel:^9.2 [Nome_repo]
 5. Seleziona l'opzione "Public" o "Pubblica" per rendere il repository visibile a tutti.
 
 6. ATTIVAZIONE DEL SERVER: Una volta completata la pubblicazione su GitHub, apri il terminale nella cartella del progetto e avvia il server utilizzando il seguente comando:
+
+```
+php artisan serve
+```
+
+
+7. In un nuovo terminale, esegui il comando seguente per installare il pacchetto `pacificdev/laravel_9_preset`:
+
+```
+composer require pacificdev/laravel_9_preset
+```
+
+
+
